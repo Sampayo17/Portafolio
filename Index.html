@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="./styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio</title>
+
+<meta name="description"
+    content="Portafolio Israel Sampayo - Desarrollador con más de 5 años de experiencia en HTML, CSS, ASP.NET Core.">
+<meta name="robots" content="index, follow" />
+<meta porperty="og:title" content="Portafolio">
+<meta porperty=" og:description" content="Portafolio" />
+<meta porperty=" og:image" content="/img/imgTest.jpg" />
+
+<link rel="alternate" href="https://www.israelsampayo.com" hreflang="es" />
+
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.0;
+        margin: 0;
+        padding: 0;
+        background-color: #d7e2e2;
+    }
+</style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Portafolio - Israel Sampayo</h1>
+        <nav>
+            <a href=" /">Home</a>
+            <a href="#experiencia">Proyectos</a>
+            <a href="#proyectos">Tecnologias</a>
+        </nav>
+
+    </header>
+
+    <dialog id="info">
+        <h1>Hola, soy Israel Sampayo.</h1>
+        <p>Desarrollador con más de 5 años de experiencia en HTML, CSS, ASP.NET Core.</p>
+        <button id="hide">Cerrar</button>
+    </dialog>
+    <button id="show">See more info</button>
+    <script>
+        console.log("Hola")
+        window.show.addEventListener('click', () => {
+            window.info.showModal();
+        });
+
+        window.hide.addEventListener('click', () => {
+            window.info.close();
+        });
+    </script>
+
+    <main>
+        <p>Desarrollador con más de 5 años de experiencia en HTML, CSS, asp .net core. <strong>Analista
+                programador</strong>
+            TSU en informática - Actualmente
+        </p>
+
+        <h2 id="experiencia">Experiencias</h2>
+        <ul>
+            <li class="list-item">Manapro - 2018-2021</li>
+            <li class="list-item">BOD - 2021 - 2022</li>
+            <li class="list-item">Linkit - 2022-Actualmente</li>
+        </ul>
+
+        <img id="Avatar-img" src="/img/imgTest.jpg" title="Foto de perfil" alt="Fotografia de Israel" width="200"
+            height="200" />
+
+        <h2 id="proyectos">Proyectos realizados</h2>
+
+        <aside>
+            <header>
+                <h3>Tecnologias Favoritas</h3>
+            </header>
+            <ol id="tecnologias">
+                <li class="list-item">HTML</li>
+                <li class="list-item">Tailwind - CSS </li>
+                <li class="list-item">ASP .Net core</li>
+                <li class="list-item">C#</li>
+            </ol>
+        </aside>
+
+        <section>
+            <article>
+                <header>
+                    <h4>Aplicaciones web</h4>
+                </header>
+                <p>Desarrolo de aplicaciones web amigables y modernas con las teconlogias de hoy</p>
+                <footer>
+                    <small> Tecnologias: HTML5, Tailwind - CSS, JavaScript y Asp .net</small>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h4>Paginas web</h4>
+                </header>
+                <p>Desarrolo de aplicaciones web amigables y modernas con las teconlogias de hoy</p>
+                <footer>
+                    <small> Tecnologias: HTML5, Tailwind - CSS, JavaScript y Asp .net</small>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h4>Aplicaciones de POS</h4>
+                </header>
+                <p>Desarrolo de aplicaciones web amigables y modernas con las teconlogias de hoy</p>
+                <footer>
+                    <small> Tecnologias: HTML5, Tailwind - CSS, JavaScript y Asp .net</small>
+                </footer>
+            </article>
+            <article> </article>
+        </section>
+        <section>
+            <h2>Formulario de contácto</h2>
+            <form>
+                <fieldset>
+                    <legend>Contactame</legend>
+                    <div>
+                        <label>
+                            Nombre:
+                            <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Email:
+                            <input type="email" name="email" placeholder="Escribe tu email" required>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Información Adicional</legend>
+                    <div>
+                        <label>
+                            teléfono:
+                            <input type="phone" name="teléfono" placeholder="Escribe tu teléfono" required>
+                        </label>
+                    </div>
+                </fieldset>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+        Este es el portafolio inicial de Israel - 2025
+    </footer>
+</body>
+
+
+
+<script></script>
+
+</html>
