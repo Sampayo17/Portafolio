@@ -1,0 +1,55 @@
+/*Pseudo-clases*/
+/* :hover: Aplica estilos cuando el usuario pasa el cursor sobre un elemento.  */
+/* :focus: Aplica estilos cuando un elemento recibe el foco (por ejemplo, un campo de formulario al que se le ha hecho clic).  */
+/*:active: Aplica :  representa un elemento (como un botón) que el usuario está activando.*/
+/*visited*/
+
+/* Pseudo-elementos */
+/* ::before: Inserta contenido antes del contenido del elemento.  */
+/* ::after: Inserta contenido después del contenido del elemento.  */
+/* ::first-line: Aplica estilos a la primera línea de un elemento de texto.  */
+/* ::first-letter: Aplica estilos a la primera letra de un elemento de texto */
+/* ::first-child: afecta al primer elemento de una section o lo que sea */
+/* ::first-last: afecta al ultimo elemento de una section o lo que sea */
+/* ::nth-child(2) afecta al elemento que indiques dentro de los parentesis de una section o lo que sea */
+
+/* Somes tags that work inline */
+/* <span>: Un contenedor genérico en línea para texto o elementos en línea. */
+/* <a>: El elemento de enlace o hipervínculo. */
+/* <img>: La etiqueta para mostrar imágenes. */
+/* <strong>: Destaca el texto con negritas. */
+/* <em>: Énfasis en el texto (normalmente itálicas). */
+/* <b>: Texto en negritas. */
+/* <i>: Texto en itálicas.  */
+
+/* Elementos con display: inline-block por defecto: */
+/* <input>: Campos de entrada de texto, botones, casillas de verificación, etc. */
+/* <button>: Botones para acciones. */
+/* <select>: Menús desplegables. */
+/* <textarea>: Cajas de texto multilinea.  */
+
+
+/* Positions*/
+/*position: absolute; Posicion absoluta en el 100% del documento*/
+/*inset: 0px 0px;  va anidado a position Equivalente a top: 0; right: 0; bottom: 0; left: 0; */
+/*position: fixed;  Posiciona el elemento en relación a la ventana del navegador no es afectado por ningun padre mas que el navegador */
+/*position: sticky; /* Posiciona el elemento en relación a su contenedor más cercano con scroll, se adhiere al borde del contenedor al hacer scroll */
+
+/*Menejos de desbordamientos*/
+
+/*Sirve para manejar el desbordamiento en una caja*/
+  text-overflow: ellipsis; /*Colocara puntos suspensivos*/
+  overflow: scroll; /* visible, scroll, auto y clip recomendado Permite el desplazamiento si el contenido es más grande que el contenedor */
+ 
+/*Manejo de cajas*/
+box-sizing: border-box; /* box Establece la suma del p, w y h dentro de la caja*/
+box-sizing: content-box; /*  El ancho y alto solo incluyen el contenido, no el padding ni el borde. Es el valor por defecto de box-sizing*/
+
+
+/*Display*/
+inline: cada item uno al lado del otro.
+block: uno debajo del otro.
+Flex:  Unidireccional (Uno al lado del otro row o uno debajo de otro ). Al usarlo, las propoiedades width higth son tomadas en cuenta.
+    Flex
+
+Nota:Todas las etiquetas tienen un display por defecto. Com se explica en el cuarto parrafo

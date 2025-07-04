@@ -1,0 +1,85 @@
+* {
+  font-family: serif;
+  background-color: #e74545;
+}
+
+.mybigBox {
+  background-color: #883f3f;
+  width: 300px;
+  height: 300px;
+  border: solid;
+  position: relative; /*Permite que los elementos hijos se posicionen en relación a este contenedor */
+  margin-top: 20px; /*Espacio entre cajas*/
+}
+
+.myBox {
+  background-color: #000000;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ff0000;
+  box-sizing: border-box; /* content- box Establece la suma del p, w y h dentro de la caja*/
+  color: blue;
+  font-size: 60px;
+  text-overflow: ellipsis; /*Colocara puntos suspensivos*/
+  overflow: scroll; /* visible, scroll, auto y clip recomendado Permite el desplazamiento si el contenido es más grande que el contenedor */
+}
+
+.genericBtnI {
+  background-color: #7c98cc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.genericBtn:active {
+  background-color: #5a7ab3;
+}
+
+.genericBtnC {
+  background-color: #ff0000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.genericBtnI:active {
+  background-color: #5a7ab3;
+}
+.genericBtnC:active {
+  background-color: #e74949;
+}
+
+section {
+  display: flex; /* Permite que los elementos hijos se alineen en una fila */
+  flex-direction: row; /* Cambia la dirección de la fila a columna */
+}
+
+.item:first-child {
+  background-color: #d18080;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+}
+.item:nth-child(2) {
+  background-color: #96ee24;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+}
+.item:last-child {
+  background-color: #24eecf;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+}
