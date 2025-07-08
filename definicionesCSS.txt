@@ -53,3 +53,40 @@ Flex:  Unidireccional (Uno al lado del otro row o uno debajo de otro ). Al usarl
     Flex
 
 Nota:Todas las etiquetas tienen un display por defecto. Com se explica en el cuarto parrafo
+
+
+
+/*Flex*/
+
+  flex-direction: flex;  Cambia la dirección de la fila a columna 
+  direction: rtl (Rigth to left); direccion del texto
+  writing-mode: vertical-lr; cambia la direccion de escritura 
+
+  flex-grow: 1; /* Permite que los elementos hijos crezcan para ocupar el espacio disponible */
+  flex-shrink: 1; /* Permite que los elementos hijos se reduzcan si el espacio es limitado */
+  flex-basis: 0; /* Establece el tamaño base de los elementos, con auto se ajustara solo al contenedor*/
+  Se puede abreviar estas tres propiedades con:
+  flex:1;
+  Nota: si se aplica flex a cada elemento item por ejemplo, puedes hacerlo el doble o el triple del elemento con 1
+
+
+  /*Posicionamiento con flex */
+
+  justify-content,  align-items , align-self
+
+  flex-start: Alinea los elementos al inicio del contenedor.
+  flex-end: Alinea los elementos al final del contenedor.
+  center: Centra los elementos horizontalmente.
+  space-between: Deja el mayor espacio posible entre los elementos, sin espacio al inicio ni al final.
+  space-around: Deja espacios iguales alrededor de cada elemento.
+  space-evenly: Deja espacios iguales entre todos los elementos, incluyendo los bordes del contenedor.
+
+
+ /**/
+  flex-direction
+  order
+  
+  flex-wrap
+  flex-flow
+  align-content
+  

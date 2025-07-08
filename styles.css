@@ -3,6 +3,39 @@
   background-color: #e74545;
 }
 
+.parenst {
+  display: flex; /* Permite que los elementos hijos se alineen en una fila */
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: nowrap; /* nowrap, wrap, wrap-reverse */
+  border: 4px solid #000;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  justify-content: space-evenly; /* */
+  align-items: center;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  box-sizing: content-box;
+  border: solid 1px #000;
+  /*  overflow: hidden;*/
+}
+
+.item:first-child {
+  background-color: #d18080;
+}
+.item:nth-child(2) {
+  background-color: #96ee24;
+}
+.item:last-child {
+  background-color: #24eecf;
+}
+
+/*Ya visto*/
+
 .mybigBox {
   background-color: #883f3f;
   width: 300px;
@@ -25,8 +58,7 @@
   overflow: scroll; /* visible, scroll, auto y clip recomendado Permite el desplazamiento si el contenido es más grande que el contenedor */
 }
 
-.genericBtnI {
-  background-color: #7c98cc;
+.genericBtn {
   box-sizing: border-box;
   border-radius: 5px;
   border: none;
@@ -39,6 +71,10 @@
 
 .genericBtn:active {
   background-color: #5a7ab3;
+}
+
+.btnSave {
+  background-color: #7c98cc;
 }
 
 .genericBtnC {
@@ -58,28 +94,4 @@
 }
 .genericBtnC:active {
   background-color: #e74949;
-}
-
-section {
-  display: flex; /* Permite que los elementos hijos se alineen en una fila */
-  flex-direction: row; /* Cambia la dirección de la fila a columna */
-}
-
-.item:first-child {
-  background-color: #d18080;
-  width: 100px;
-  height: 100px;
-  border: solid 1px #000;
-}
-.item:nth-child(2) {
-  background-color: #96ee24;
-  width: 100px;
-  height: 100px;
-  border: solid 1px #000;
-}
-.item:last-child {
-  background-color: #24eecf;
-  width: 100px;
-  height: 100px;
-  border: solid 1px #000;
 }
